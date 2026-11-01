@@ -62,7 +62,7 @@ export function whatsappHref(privateVisit = false) {
     : `Hola, quisiera recibir más información sobre ${property.title}.`;
   const number = property.whatsappNumber;
   return number
-    ? `https://wa.me/${number}?text=${encodeURIComponent(text)}`
+    ? `https://wa.me/${5491166056102}?text=${encodeURIComponent(text)}`
     : `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
 }
 
